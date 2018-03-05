@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"one_way_fo",
+				"one_way_following_string"
+			],
+			[
+				"one",
+				"one_way_following_string"
+			],
+			[
 				"users",
 				"users_to_display"
 			],
@@ -40,12 +48,12 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "package",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"package",
-				"Package Control: Enable Package"
+				"Package Control: Install Package"
 			],
 			[
 				"package: in",
@@ -127,64 +135,50 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneilejs",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneilejs/routes",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneilejs/views"
-	],
 	"file_history":
 	[
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneil/routes/index.js",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneil/views/index.pug",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneil/views/test_pug.html",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneil/app.js",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneil/views/layout.pug",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneil/routes/users.js",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneil.co.uk/package.json",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneil.co.uk/public/index.html",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneil.co.uk/app.js",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneil.co.uk/public/css/app.css",
-		"/Users/sdawes/Google Drive/Development/projects/vinceandneil.co.uk/public/about.html",
-		"/Users/sdawes/Google Drive/Development/projects/pcrepair/routes/users.js",
-		"/Users/sdawes/Google Drive/Development/projects/pcrepair/package.json",
-		"/Users/sdawes/Google Drive/Development/projects/pcrepair/views/error.pug",
-		"/Users/sdawes/Google Drive/Development/projects/webserver/package.json",
-		"/Users/sdawes/Google Drive/Development/projects/webserver/node_modules/express/lib/express.js",
-		"/Users/sdawes/Google Drive/Development/projects/node_twitter_api/index.js",
-		"/Users/sdawes/Google Drive/Development/projects/node_twitter_api/views/index.jade",
-		"/Users/sdawes/Google Drive/Development/projects/node_twitter_api/views/user_list.jade",
-		"/Users/sdawes/Google Drive/Development/projects/node_twitter_api/package.json",
-		"/Users/sdawes/Google Drive/Development/projects/node_twitter_api/app.js",
-		"/Users/sdawes/Google Drive/Development/projects/node_twitter_api/users.js",
-		"/Users/sdawes/Google Drive/Development/projects/node_twitter_api/.gitignore",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/partials/_tech_demos.jade",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/app.js",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/css/app.css",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/partials/_about.jade",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/sass/_about.scss",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/css/bootstrap.css",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/views/twitterapi.jade",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/routes/twitterapi.js",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/partials/_contact.jade",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/routes/index.js",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/views/contact.jade",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/partials/_nav.jade",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/sass/_skills.scss",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/partials/_skills.jade",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/partials/_header.jade",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/sass/_variables.scss",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/sass/_header.scss",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/.env",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/package.json",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/routes/users.js",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/views/twitter.jade",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/partials/_build.jade",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/sass/_tech-demos-3.scss",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/sass/_build.scss",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/sass/sass.scss",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/.gitignore",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/views/index.jade",
+		"/Users/sdawes/Google Drive/Development/projects/stevedawes/routes/twitter.js",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/routes/codewars.js",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/views/codewars.jade",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/routes/index.js",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/package.json",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/routes/contact.js",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/views/codewarsAPI.jade",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/views/contact.jade",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/views/reactApp.jade",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/routes/reactApp.js",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/routes/codewarsAPI.js",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/js/app.jsx",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/partials/_nav.jade",
 		"/Users/sdawes/Library/Application Support/Sublime Text 3/Packages/User/SublimeHighlight.sublime-settings",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/app.js",
 		"/Users/sdawes/Library/Application Support/Sublime Text 3/Packages/Highlight/SublimeHighlight.sublime-settings",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/views/app.jsx",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/app.jsx",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/css/app.css",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/routes/users.js",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/partials/_react_app.jade",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/views/index.jade",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/views/react_app.jade",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/partials/_header.jade",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/sass/_header.scss",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/public/sass/sass.scss",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/.env",
-		"/Users/sdawes/Google Drive/Development/projects/stevedawes/.gitignore",
 		"/Users/sdawes/Google Drive/Development/projects/stevedawes/README.md",
 		"/Users/sdawes/Google Drive/Development/projects/rails_blog/app/views/posts/index.html.erb",
 		"/Users/sdawes/Google Drive/Development/projects/rails_blog/app/views/posts/show.html.erb",
@@ -262,7 +256,15 @@
 		"/Users/sdawes/Google Drive/Development/projects/podeg/public/js/bootstrap.js",
 		"/Users/sdawes/Google Drive/Development/projects/podeg/public/sass/_skills.scss",
 		"/Users/sdawes/Google Drive/Development/projects/podeg/partials/_skills.jade",
-		"/Users/sdawes/Google Drive/Development/projects/podeg/public/sass/sass.scss"
+		"/Users/sdawes/Google Drive/Development/projects/podeg/public/sass/sass.scss",
+		"/Users/sdawes/Google Drive/Development/projects/podeg/public/sass/buttons.scss",
+		"/Users/sdawes/Google Drive/Development/projects/podeg/public/sass/_variables.scss",
+		"/Users/sdawes/Google Drive/Development/projects/podeg/public/sass/_type.scss",
+		"/Users/sdawes/Google Drive/Development/projects/podeg/public/sass/index.scss",
+		"/Users/sdawes/Google Drive/Development/projects/podeg/public/icons/icon_html5.svg",
+		"/Users/sdawes/Google Drive/Development/projects/podeg/views/test.html",
+		"/Users/sdawes/Google Drive/Development/projects/podeg/partials/_header.jade",
+		"/Users/sdawes/Google Drive/Development/projects/podeg/partials/_head.jade"
 	],
 	"find":
 	{
@@ -280,6 +282,45 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"skill",
+			".col-sm-6",
+			"12",
+			"alert",
+			"alert-success",
+			"sx",
+			"6",
+			"sx",
+			"col-sm-6",
+			"bootstrapValidator",
+			"h1",
+			"blogUrl",
+			"navbar",
+			"nav",
+			"navbar",
+			"contact-me",
+			"nav-icon3",
+			"data-slide",
+			"interval",
+			"data-interval",
+			"data-ride",
+			"data-interval",
+			"carousel",
+			"DATA_RIDE",
+			"data-ride",
+			"item",
+			".item",
+			"carousel-item",
+			"jumbotron",
+			"col",
+			"row",
+			"jumbotron",
+			"col-6",
+			"images",
+			"font",
+			"typo",
+			"type",
+			"font",
+			"logo"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -304,7 +345,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -389,7 +430,7 @@
 		[
 			[
 				"",
-				"~/Google Drive/Development/sublime_projects/stevedawes.sublime-project"
+				"~/Google Drive/Development/projects/vinceandneilejs/views/vinceandneilejs.sublime-workspace"
 			]
 		],
 		"width": 380.0

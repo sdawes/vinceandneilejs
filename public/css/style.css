@@ -1,0 +1,44 @@
+h1, h2, h3, h4, h5, h6, p, a, label, legend {
+  font-family: "Raleway", sans-serif;
+  color: #9c152b; }
+
+h2, legend {
+  font-size: 24px; }
+
+h3 {
+  font-size: 16px; }
+
+h4, label {
+  font-size: 14px; }
+
+p {
+  font-size: 12px;
+  font-family: "Open Sans", serif;
+  margin: 0; }
+
+@media (min-width: 768px) {
+  h2, legend {
+    font-size: 30px; }
+  h3 {
+    font-size: 18px; }
+  h4, label {
+    font-size: 16px; }
+  p {
+    font-size: 14px; } }
+
+.block-welcome {
+  background-color: #9c152b;
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center; }
+  .block-welcome h2 {
+    color: white; }
+  .block-welcome p {
+    color: white; }
+  .block-welcome img {
+    width: 100px;
+    margin-top: 20px; }
+
+@media (min-width: 768px) {
+  .block-welcome img {
+    width: 150px; } }

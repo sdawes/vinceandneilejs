@@ -1,0 +1,19 @@
+// colours
+
+$x-color-grey: rgba(92, 92, 91, 1);
+$x-color-red: rgba(156, 21, 43, 1);
+$x-color-darkBlue: rgba(25, 67, 110, 1);
+$x-color-lightBlue: rgba(129, 158, 185, 1);
+$x-color-black: rgba(0, 0, 0, 1);
+$x-color-white: rgba(255, 255, 255, 1);
+
+$color-primary: $x-color-red;
+$color-secondary: rgba($x-color-darkBlue, 1);
+$color-tertiary: $x-color-grey;
+
+$color-highlight: $x-color-lightBlue;
+$color-white: $x-color-white;
+
+$font-family-primary: 'Raleway', sans-serif;
+$font-family-secondary: 'Open Sans', serif;
+

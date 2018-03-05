@@ -1,0 +1,44 @@
+h1, h2, h3, h4, h5, h6, p, a, label, legend {
+	font-family: $font-family-primary;
+	color: $color-primary;
+}
+
+h2, legend {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4, label {
+	font-size: 14px;
+}
+
+p {
+	font-size: 12px;
+	font-family: $font-family-secondary;
+	margin: 0;
+}
+
+// media queries
+// ==========================================
+
+@media (min-width: 768px) {
+	h2, legend {
+		font-size: 30px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	h4, label {
+		font-size: 16px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+}
