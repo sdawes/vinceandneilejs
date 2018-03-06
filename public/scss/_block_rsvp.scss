@@ -1,0 +1,47 @@
+.block-rsvp {
+	background-color: $x-color-darkBlue;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+	h2 {
+		color: $color-white;
+	}
+	p {
+		color: $color-white;
+	}
+	img {
+		width: 100px;
+		margin-top: 20px;
+	}
+	a {
+		font-family: $font-family-primary;
+		margin-bottom: 10px;
+		padding: 5px 10px;
+		background-color: $x-color-lightBlue;
+		border: none;
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.block-welcome {
+		img {
+			width: 150px;
+		}
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+	
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

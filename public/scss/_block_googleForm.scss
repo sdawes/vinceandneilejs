@@ -1,0 +1,41 @@
+.block-googleForm {
+	background-color: $x-color-darkBlue;
+	padding: 50px 10px;
+	margin: 0 auto;
+	text-align: center;
+	h1 {
+		color: $color-white;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	p {
+		color: $color-white;
+	}
+	img {
+		width: 30px;
+		position: absolute;
+		top: 30px;
+		left: 30px;
+	}
+	
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+	
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}

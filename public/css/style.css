@@ -42,3 +42,43 @@ p {
 @media (min-width: 768px) {
   .block-welcome img {
     width: 150px; } }
+
+.block-googleForm {
+  background-color: #19436e;
+  padding: 50px 10px;
+  margin: 0 auto;
+  text-align: center; }
+  .block-googleForm h1 {
+    color: white;
+    margin: 0;
+    margin-bottom: 10px; }
+  .block-googleForm p {
+    color: white; }
+  .block-googleForm img {
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    left: 30px; }
+
+.block-rsvp {
+  background-color: #19436e;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center; }
+  .block-rsvp h2 {
+    color: white; }
+  .block-rsvp p {
+    color: white; }
+  .block-rsvp img {
+    width: 100px;
+    margin-top: 20px; }
+  .block-rsvp a {
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #819eb9;
+    border: none; }
+
+@media (min-width: 768px) {
+  .block-welcome img {
+    width: 150px; } }
