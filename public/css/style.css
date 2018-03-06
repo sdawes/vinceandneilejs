@@ -11,7 +11,7 @@ h3 {
 h4, label {
   font-size: 14px; }
 
-p {
+p, a {
   font-size: 12px;
   font-family: "Open Sans", serif;
   margin: 0; }
@@ -23,7 +23,7 @@ p {
     font-size: 18px; }
   h4, label {
     font-size: 16px; }
-  p {
+  p, a {
     font-size: 14px; } }
 
 .block-welcome {
@@ -31,7 +31,7 @@ p {
   padding: 50px;
   margin: 0 auto;
   text-align: center; }
-  .block-welcome h2 {
+  .block-welcome h2, .block-welcome h3 {
     color: white; }
   .block-welcome p {
     color: white; }
@@ -59,6 +59,37 @@ p {
     position: absolute;
     top: 30px;
     left: 30px; }
+
+.block-venue {
+  background-color: #5c5c5b;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center; }
+  .block-venue h2, .block-venue h3, .block-venue p, .block-venue a {
+    color: white; }
+
+.col_1 {
+  background-color: #9c152b;
+  background: url("../images/venue.jpg");
+  background-size: cover;
+  padding: 50px; }
+
+.col_2 {
+  background-color: white;
+  display: none;
+  padding: 50px; }
+  .col_2 h2, .col_2 h3, .col_2 p, .col_2 a {
+    color: black; }
+
+@media (min-width: 576px) {
+  .col_1 h2, .col_1 p, .col_1 a {
+    display: none; }
+  .col_2 {
+    display: block; } }
+
+@media (min-width: 768px) {
+  .col_1, .col_2 {
+    padding: 80px; } }
 
 .block-rsvp {
   background-color: #19436e;

@@ -1,0 +1,54 @@
+.block-venue {
+	background-color: $x-color-grey;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	h2, h3, p, a {
+		color: $color-white;
+	}
+}
+
+.col_1 {
+	background-color: $x-color-red;
+	background: url('../images/venue.jpg');
+	background-size: cover;
+	padding: 50px;
+}
+
+.col_2 {
+	background-color: $color-white;
+	display: none;
+	padding: 50px;
+	h2, h3, p, a {
+		color: black;
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	.col_1 {
+		h2, p, a {
+			display: none;
+		}
+	}
+	.col_2 {
+		display: block;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.col_1, .col_2 {
+		padding: 80px;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+	
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
