@@ -59,6 +59,10 @@ p {
     position: absolute;
     top: 30px;
     left: 30px; }
+  .block-googleForm iframe {
+    width: 1px;
+    min-width: 100%;
+    *width: 100%; }
 
 .block-rsvp {
   background-color: #19436e;
