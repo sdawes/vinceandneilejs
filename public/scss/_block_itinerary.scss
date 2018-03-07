@@ -1,31 +1,30 @@
-.block-venue {
+.block-itinerary {
+	background-color: $x-color-red;
 	padding: 0;
 	margin: 0 auto;
 	text-align: center;
-	h2, h3, p, a {
+	h2, h3, h4, p, a {
 		color: $color-white;
 	}
-	.col_1 {
-		background-color: $x-color-red;
-		background: url('../images/venue.jpg');
-		background-size: cover;
-		padding: 50px;
-		p, a {
-			text-shadow: 2px 2px 5px black;
-		}
-	}
-	.col_2 {
-		display: none;
-		padding: 50px;
-		h2, h3, p, a {
-			color: black;
-		}
+	h3 {
+		
 	}
 	.h_line {
 		border-bottom: 2px solid yellow;
 		width: 120px;
 		margin: 0 auto;
 		margin-bottom: 10px;
+	}
+	.col_1, .col_2 {
+		background-color: $x-color-red;
+		padding: 50px;
+	}
+
+	.col_2 {
+		background-color: $x-color-darkBlue;
+		background: url("../images/ballroom.png");
+		background-size: cover;
+		padding: 0;
 	}
 }
 
@@ -36,11 +35,9 @@
 	.block_venue {
 		.col_1 {
 			h2, p, a {
-				display: none;
 			}
 		}
 		.col_2 {
-			display: block;
 		}
 	}
 	

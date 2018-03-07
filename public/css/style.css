@@ -38,58 +38,15 @@ p, a {
   .block-welcome img {
     width: 100px;
     margin-top: 20px; }
+  .block-welcome .h_line {
+    border-bottom: 2px solid yellow;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
 
 @media (min-width: 768px) {
   .block-welcome img {
     width: 150px; } }
-
-.block-googleForm {
-  background-color: #19436e;
-  padding: 50px 10px;
-  margin: 0 auto;
-  text-align: center; }
-  .block-googleForm h1 {
-    color: white;
-    margin: 0;
-    margin-bottom: 10px; }
-  .block-googleForm p {
-    color: white; }
-  .block-googleForm img {
-    width: 30px;
-    position: absolute;
-    top: 30px;
-    left: 30px; }
-
-.block-venue {
-  background-color: #5c5c5b;
-  padding: 0;
-  margin: 0 auto;
-  text-align: center; }
-  .block-venue h2, .block-venue h3, .block-venue p, .block-venue a {
-    color: white; }
-
-.col_1 {
-  background-color: #9c152b;
-  background: url("../images/venue.jpg");
-  background-size: cover;
-  padding: 50px; }
-
-.col_2 {
-  background-color: white;
-  display: none;
-  padding: 50px; }
-  .col_2 h2, .col_2 h3, .col_2 p, .col_2 a {
-    color: black; }
-
-@media (min-width: 576px) {
-  .col_1 h2, .col_1 p, .col_1 a {
-    display: none; }
-  .col_2 {
-    display: block; } }
-
-@media (min-width: 768px) {
-  .col_1, .col_2 {
-    padding: 80px; } }
 
 .block-rsvp {
   background-color: #19436e;
@@ -113,3 +70,79 @@ p, a {
 @media (min-width: 768px) {
   .block-welcome img {
     width: 150px; } }
+
+.block-googleForm {
+  background-color: #19436e;
+  padding: 50px 10px;
+  margin: 0 auto;
+  text-align: center; }
+  .block-googleForm h1 {
+    color: white;
+    margin: 0;
+    margin-bottom: 10px; }
+  .block-googleForm p {
+    color: white; }
+  .block-googleForm img {
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    left: 30px; }
+
+.block-venue {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center; }
+  .block-venue h2, .block-venue h3, .block-venue p, .block-venue a {
+    color: white; }
+  .block-venue .col_1 {
+    background-color: #9c152b;
+    background: url("../images/venue.jpg");
+    background-size: cover;
+    padding: 50px; }
+    .block-venue .col_1 p, .block-venue .col_1 a {
+      text-shadow: 2px 2px 5px black; }
+  .block-venue .col_2 {
+    display: none;
+    padding: 50px; }
+    .block-venue .col_2 h2, .block-venue .col_2 h3, .block-venue .col_2 p, .block-venue .col_2 a {
+      color: black; }
+  .block-venue .h_line {
+    border-bottom: 2px solid yellow;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+
+@media (min-width: 576px) {
+  .block_venue .col_1 h2, .block_venue .col_1 p, .block_venue .col_1 a {
+    display: none; }
+  .block_venue .col_2 {
+    display: block; } }
+
+@media (min-width: 768px) {
+  .block_venue .col_1, .block_venue .col_2 {
+    padding: 80px; } }
+
+.block-itinerary {
+  background-color: #9c152b;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center; }
+  .block-itinerary h2, .block-itinerary h3, .block-itinerary h4, .block-itinerary p, .block-itinerary a {
+    color: white; }
+  .block-itinerary .h_line {
+    border-bottom: 2px solid yellow;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .block-itinerary .col_1, .block-itinerary .col_2 {
+    background-color: #9c152b;
+    padding: 50px; }
+  .block-itinerary .col_2 {
+    background-color: #19436e;
+    background: url("../images/ballroom.png");
+    background-size: cover;
+    padding: 0; }
+
+@media (min-width: 768px) {
+  .block_venue .col_1, .block_venue .col_2 {
+    padding: 80px; } }
