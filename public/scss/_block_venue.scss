@@ -33,14 +33,20 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-	.block_venue {
+	.block-venue {
 		.col_1 {
 			h2, p, a {
+				display: none;
+			}
+			.h_line {
 				display: none;
 			}
 		}
 		.col_2 {
 			display: block;
+			.h_line {
+				border-bottom: 2px solid limegreen;
+			}
 		}
 	}
 	
