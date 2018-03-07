@@ -147,8 +147,47 @@ p, a {
     background-color: #19436e;
     background: url("../images/ballroom.png");
     background-size: cover;
-    padding: 0; }
+    padding: 0;
+    display: none; }
+
+@media (min-width: 576px) {
+  .block-itinerary .col_2 {
+    display: block; } }
+
+.block-dress {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center; }
+  .block-dress h2, .block-dress h3, .block-dress p, .block-dress a {
+    color: white; }
+  .block-dress .col_1 {
+    background-color: #19436e;
+    background: url("../images/dress.png");
+    background-size: cover;
+    padding: 270px 20px; }
+    .block-dress .col_1 p, .block-dress .col_1 a {
+      text-shadow: 2px 2px 5px black; }
+  .block-dress .col_2 {
+    background-color: #19436e;
+    padding: 50px; }
+  .block-dress .h_line {
+    border-bottom: 2px solid yellow;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+
+@media (min-width: 576px) {
+  .block-dress .col_1 {
+    padding: 300px 20px; }
+    .block-dress .col_1 h2, .block-dress .col_1 p, .block-dress .col_1 a {
+      display: none; }
+    .block-dress .col_1 .h_line {
+      display: none; }
+  .block-dress .col_2 .h_line {
+    border-bottom: 2px solid limegreen; } }
 
 @media (min-width: 768px) {
-  .block_venue .col_1, .block_venue .col_2 {
+  .block-dress .col_1 {
+    padding: 330px 20px; }
+  .block-dress .col_2 {
     padding: 80px; } }

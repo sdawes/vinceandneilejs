@@ -1,13 +1,23 @@
-.block-itinerary {
-	background-color: $x-color-red;
+.block-dress {
 	padding: 0;
 	margin: 0 auto;
 	text-align: center;
-	h2, h3, h4, p, a {
+	h2, h3, p, a {
 		color: $color-white;
 	}
-	h3 {
-		color: $x-color-lightBlue;
+	.col_1 {
+		background-color: $x-color-darkBlue;
+		background: url('../images/dress.png');
+		background-size: cover;
+		padding: 270px 20px;
+		p, a {
+			text-shadow: 2px 2px 5px black;
+		}
+	}
+	.col_2 {
+		background-color: $x-color-darkBlue;
+		padding: 50px;
+		
 	}
 	.h_line {
 		border-bottom: 2px solid yellow;
@@ -15,31 +25,26 @@
 		margin: 0 auto;
 		margin-bottom: 10px;
 	}
-	.col_1 {
-		background-color: $x-color-red;
-		padding: 50px;
-	}
-
-	.col_2 {
-		background-color: $x-color-darkBlue;
-		background: url("../images/ballroom.png");
-		background-size: cover;
-		padding: 0;
-		display: none;
-	}
 }
 
 
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-	.block-itinerary {
+	.block-dress {
 		.col_1 {
+			padding: 300px 20px;
 			h2, p, a {
+				display: none;
+			}
+			.h_line {
+				display: none;
 			}
 		}
 		.col_2 {
-			display: block;
+			.h_line {
+				border-bottom: 2px solid limegreen;
+			}
 		}
 	}
 	
@@ -47,7 +52,14 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-	
+	.block-dress {
+		.col_1 {
+			padding: 330px 20px;
+		}
+		.col_2 {
+			padding: 80px;
+		}
+	}
 	
 }
 
