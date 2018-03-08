@@ -126,7 +126,7 @@ p, a {
     padding: 50px; }
   .block-itinerary .col_2 {
     background-color: #19436e;
-    background: url("../images/ballroom.png");
+    background: url("../images/ballroom.jpg");
     background-size: cover;
     padding: 0;
     display: none; }
@@ -201,3 +201,68 @@ p, a {
     display: block; }
     .block-gifts .col_2 img {
       margin-top: 0; } }
+
+.block-crowd {
+  background-color: #5c5c5b;
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center; }
+  .block-crowd h2, .block-crowd h3 {
+    color: white; }
+  .block-crowd p {
+    color: white; }
+  .block-crowd img {
+    width: 100px;
+    margin-top: 20px; }
+  .block-crowd .h_line {
+    border-bottom: 2px solid #9c152b;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+
+@media (min-width: 768px) {
+  .block-crowd img {
+    width: 150px; } }
+
+.block-crowd-picture {
+  background-color: #5c5c5b;
+  background: url("../images/crowd.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  margin: 0 auto; }
+
+@media (min-width: 576px) {
+  .block-crowd-picture {
+    padding: 200px 0; } }
+
+@media (min-width: 768px) {
+  .block-crowd-picture {
+    padding: 250px 0; } }
+
+@media (min-width: 992px) {
+  .block-crowd-picture {
+    padding: 300px 0; } }
+
+@media (min-width: 1200px) {
+  .block-crowd-picture {
+    padding: 350px 0; } }
+
+.block-seville {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center; }
+  .block-seville h2, .block-seville h3, .block-seville p, .block-seville a {
+    color: white; }
+  .block-seville .col_1 {
+    background-color: #9c152b;
+    padding: 50px; }
+  .block-seville .h_line {
+    border-bottom: 2px solid yellow;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+
+@media (min-width: 768px) {
+  .block-seville .col_1 {
+    padding: 80px; } }
