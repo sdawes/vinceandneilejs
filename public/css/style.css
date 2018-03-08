@@ -143,9 +143,9 @@ p, a {
     color: white; }
   .block-dress .col_1 {
     background-color: #19436e;
-    background: url("../images/dress.png");
+    background: url("../images/dress.jpg");
     background-size: cover;
-    padding: 270px 20px; }
+    padding: 260px 20px; }
     .block-dress .col_1 p, .block-dress .col_1 a {
       text-shadow: 2px 2px 5px black; }
   .block-dress .col_2 {
@@ -172,3 +172,32 @@ p, a {
     padding: 330px 20px; }
   .block-dress .col_2 {
     padding: 80px; } }
+
+.block-gifts {
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center; }
+  .block-gifts h2, .block-gifts h3 {
+    color: black; }
+  .block-gifts p {
+    color: black; }
+  .block-gifts img {
+    width: 100px;
+    margin-top: 20px; }
+  .block-gifts .h_line {
+    border-bottom: 2px solid limegreen;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .block-gifts .col_2 {
+    display: none; }
+
+@media (min-width: 576px) {
+  .block-gifts img {
+    width: 150px; }
+  .block-gifts .col_1 img {
+    display: none; }
+  .block-gifts .col_2 {
+    display: block; }
+    .block-gifts .col_2 img {
+      margin-top: 0; } }
