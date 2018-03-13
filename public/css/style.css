@@ -144,7 +144,7 @@ p, a {
   .block-accommodation p {
     color: black; }
   .block-accommodation img {
-    width: 100px;
+    width: 300px;
     margin-top: 20px; }
   .block-accommodation .h_line {
     border-bottom: 2px solid lightblue;
@@ -156,13 +156,25 @@ p, a {
 
 @media (min-width: 576px) {
   .block-accommodation img {
-    width: 150px; }
+    width: 250px; }
   .block-accommodation .col_1 img {
     display: none; }
   .block-accommodation .col_2 {
     display: block; }
     .block-accommodation .col_2 img {
       margin-top: 0; } }
+
+@media (min-width: 768px) {
+  .block-accommodation img {
+    width: 350px; } }
+
+@media (min-width: 992px) {
+  .block-accommodation img {
+    width: 450px; } }
+
+@media (min-width: 1200px) {
+  .block-accommodation img {
+    width: 600px; } }
 
 .block-dress {
   padding: 0;
