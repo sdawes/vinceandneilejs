@@ -135,6 +135,35 @@ p, a {
   .block-itinerary .col_2 {
     display: block; } }
 
+.block-accommodation {
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center; }
+  .block-accommodation h2, .block-accommodation h3 {
+    color: black; }
+  .block-accommodation p {
+    color: black; }
+  .block-accommodation img {
+    width: 100px;
+    margin-top: 20px; }
+  .block-accommodation .h_line {
+    border-bottom: 2px solid lightblue;
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .block-accommodation .col_2 {
+    display: none; }
+
+@media (min-width: 576px) {
+  .block-accommodation img {
+    width: 150px; }
+  .block-accommodation .col_1 img {
+    display: none; }
+  .block-accommodation .col_2 {
+    display: block; }
+    .block-accommodation .col_2 img {
+      margin-top: 0; } }
+
 .block-dress {
   padding: 0;
   margin: 0 auto;
