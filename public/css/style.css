@@ -146,22 +146,20 @@ p, a {
     color: white; }
   .block-accommodation a {
     color: #94d9f6; }
-  .block-accommodation img {
-    width: 300px;
-    margin-top: 20px; }
   .block-accommodation .h_line {
     border-bottom: 2px solid lightblue;
-    width: 220px;
+    width: 100px;
     margin: 0 auto;
     margin-bottom: 10px; }
   .block-accommodation .col_2 {
-    display: none;
     background-image: url("../images/map.jpg");
-    background-size: cover; }
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    background-repeat: no-repeat;
+    margin-top: 20px; }
 
 @media (min-width: 576px) {
-  .block-accommodation .col_1 img {
-    display: none; }
   .block-accommodation .col_2 {
     display: block;
     background-image: url("../images/map.jpg");
