@@ -38,6 +38,17 @@ p, a {
   .block-welcome img {
     width: 100px;
     margin-top: 20px; }
+  .block-welcome .text-facebook {
+    margin-top: 20px; }
+  .block-welcome .link-facebook {
+    color: white;
+    background-color: #5c5c5b;
+    border: none;
+    margin-top: 20px;
+    font-size: 10px; }
+    .block-welcome .link-facebook:hover {
+      background-color: #b8e0f5;
+      color: black; }
   .block-welcome .h_line {
     border-bottom: 2px solid yellow;
     width: 120px;
@@ -64,7 +75,7 @@ p, a {
     font-family: "Raleway", sans-serif;
     margin-bottom: 10px;
     padding: 5px 10px;
-    background-color: #94d9f6;
+    background-color: #b8e0f5;
     border: none; }
 
 @media (min-width: 768px) {
@@ -115,7 +126,7 @@ p, a {
   .block-itinerary h2, .block-itinerary h3, .block-itinerary h4, .block-itinerary p, .block-itinerary a {
     color: white; }
   .block-itinerary h3 {
-    color: #94d9f6; }
+    color: #b8e0f5; }
   .block-itinerary .h_line {
     border-bottom: 2px solid yellow;
     width: 120px;
@@ -145,7 +156,7 @@ p, a {
   .block-accommodation p {
     color: white; }
   .block-accommodation a {
-    color: #94d9f6; }
+    color: #b8e0f5; }
   .block-accommodation .h_line {
     border-bottom: 2px solid lightblue;
     width: 100px;
@@ -231,6 +242,40 @@ p, a {
     display: block; }
     .block-gifts .col_2 img {
       margin-top: 0; } }
+
+.block-travel {
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #b8e0f5; }
+  .block-travel h2, .block-travel h3 {
+    color: black; }
+  .block-travel p {
+    color: black; }
+  .block-travel img {
+    width: 100px;
+    margin-top: 20px; }
+  .block-travel .h_line {
+    border-bottom: 2px solid #9c152b;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .block-travel .col_2 {
+    display: none; }
+
+@media (min-width: 576px) {
+  .block-travel img {
+    width: 200px; }
+  .block-travel .col_1 img {
+    display: none; }
+  .block-travel .col_2 {
+    display: block; }
+    .block-travel .col_2 img {
+      margin-top: 0; } }
+
+@media (min-width: 768px) {
+  .block-travel img {
+    width: 300px; } }
 
 .block-crowd {
   background-color: #5c5c5b;

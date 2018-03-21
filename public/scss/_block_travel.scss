@@ -1,50 +1,54 @@
-.block-welcome {
-	background-color: $x-color-red;
+.block-travel {
 	padding: 50px;
 	margin: 0 auto;
 	text-align: center;
+	background-color: $x-color-lightBlue;
 	h2, h3 {
-		color: $color-white;
+		color: $color-black;
 	}
 	p {
-		color: $color-white;
+		color: $color-black;
 	}
 	img {
 		width: 100px;
 		margin-top: 20px;
 	}
-	.text-facebook {
-		margin-top: 20px;
-	}
-	.link-facebook {
-		color: white;
-		background-color: $x-color-grey;
-		border: none;
-		margin-top: 20px;
-		font-size: 10px;
-		&:hover {
-			background-color: $x-color-lightBlue;
-			color: black;
-		}
-	}
 	.h_line {
-		border-bottom: 2px solid yellow;
+		border-bottom: 2px solid $x-color-red;
 		width: 120px;
 		margin: 0 auto;
 		margin-bottom: 10px;
+	}
+	.col_2 {
+		display: none;
 	}
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-
+	.block-travel {
+		img {
+			width: 200px;
+		}
+		.col_1 {
+			img {
+				display: none;
+			}
+		}
+		.col_2 {
+			display: block;
+			img {
+				margin-top: 0;
+			}
+		}
+	}
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-	.block-welcome {
+	.block-travel {
 		img {
-			width: 150px;
+			width: 300px;
 		}
 	}
 }
