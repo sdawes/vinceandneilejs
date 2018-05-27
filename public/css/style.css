@@ -38,6 +38,15 @@ p, a {
   .block-welcome img {
     width: 100px;
     margin-top: 20px; }
+  .block-welcome .updateBox {
+    background-color: yellow;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 0 20px 0; }
+    .block-welcome .updateBox p {
+      color: black; }
   .block-welcome .text-facebook {
     margin-top: 20px; }
   .block-welcome .link-facebook {
@@ -125,6 +134,8 @@ p, a {
   text-align: center; }
   .block-itinerary h2, .block-itinerary h3, .block-itinerary h4, .block-itinerary p, .block-itinerary a {
     color: white; }
+  .block-itinerary .topic {
+    color: pink; }
   .block-itinerary h3 {
     color: #b8e0f5; }
   .block-itinerary .h_line {
